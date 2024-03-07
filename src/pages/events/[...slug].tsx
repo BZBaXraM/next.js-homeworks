@@ -1,7 +1,7 @@
 import React from "react";
 
 type Props = {
-  slug: string;
+  slug: string[];
 };
 
 const EventDetails = ({ slug }: Props) => {
@@ -35,3 +35,11 @@ const EventDetails = ({ slug }: Props) => {
 };
 
 export default EventDetails;
+
+export function getServerSideProps(context: any) {
+  return {
+    props: {
+      slug: context.params.slug,
+    },
+  };
+}

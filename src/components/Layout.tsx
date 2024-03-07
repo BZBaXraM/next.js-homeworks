@@ -52,6 +52,9 @@ const Layout = ({ children }: Props) => {
             <li>
               <Link href={"/events"}>Events</Link>
             </li>
+            <li>
+              <Link href={"/users"}>Users with ...params</Link>
+            </li>
           </ul>
         </nav>
       </header>
