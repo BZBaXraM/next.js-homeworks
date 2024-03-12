@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "make": "Aston Martin",
+      "model": "DB11",
+      "year": 2022,
+      "price": 25000
+    },
+    {
+      "id": "2",
+      "make": "Aston Martin",
+      "model": "Vantage",
+      "year": 2021,
+      "price": 150000
+    },
+    {
+      "id": "3",
+      "make": "Aston Martin",
+      "model": "DBS Superleggera",
+      "year": 2022,
+      "price": 350000
+    }
+  ]
+}
