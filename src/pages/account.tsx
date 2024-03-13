@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { roboto } from ".";
 
 const Account = () => {
   return (
@@ -27,9 +28,9 @@ const Account = () => {
           color: "blue",
           textDecoration: "underline",
           textAlign: "center",
-            display: "block",
-            fontFamily: "Inter, Roboto",
-            fontSize: "1.5rem",
+          display: "block",
+          fontFamily: `${roboto.className}`,
+          fontSize: "1.5rem",
         }}
       >
         My Facebook account

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { inter, roboto } from ".";
 
 const HomePage = () => {
   return (
@@ -16,7 +17,7 @@ const HomePage = () => {
       <h1>Home</h1>
       <p
         style={{
-          fontFamily: "Inter, Roboto",
+          fontFamily: `${inter.className}, ${roboto.className}`,
           fontSize: "1.5rem",
         }}
       >

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { roboto } from ".";
 
 const mockData = [
   {
@@ -13,33 +14,36 @@ const mockData = [
 
 const Contact = () => {
   return (
-    <div style={{
+    <div
+      style={{
         flex: 1,
-        height: '100vh',
-        width: '100vw',
-        overflow: 'hidden',
-        fontFamily: 'Inter, Roboto',
-        fontSize: '2rem',
-    }}>
+        height: "100vh",
+        width: "100vw",
+        overflow: "hidden",
+        fontFamily: `${roboto.className}`,
+        fontSize: "2rem",
+      }}
+    >
       <Head>
         <title>Contact</title>
       </Head>
       <h1>Contact</h1>
 
-        <ul style={{
-            listStyle: 'none',
-            padding: 0,
-            margin: 0,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            fontSize: '1.5rem',
-        
-        }}>
-            {mockData.map((contact) => (
-            <li key={contact.id}>{contact.name}</li>
-            ))}
-        </ul>
+      <ul
+        style={{
+          listStyle: "none",
+          padding: 0,
+          margin: 0,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          fontSize: "1.5rem",
+        }}
+      >
+        {mockData.map((contact) => (
+          <li key={contact.id}>{contact.name}</li>
+        ))}
+      </ul>
     </div>
   );
 };
