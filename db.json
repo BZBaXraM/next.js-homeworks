@@ -1,0 +1,110 @@
+{
+  "dashboard": {
+    "likes": 1009912,
+    "followers": 300,
+    "followings": 200,
+    "posts": 20
+  },
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "description": "This is product 1",
+      "price": 2000
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "description": "This is product 2",
+      "price": 4000
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "description": "This is product 3",
+      "price": 300
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Sports News 1",
+      "description": "This is sports news 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "Politics News 1",
+      "description": "This is politics news 1",
+      "category": "sports"
+    },
+    {
+      "id": 3,
+      "title": "Economy News 1",
+      "description": "This is economy news 1",
+      "category": "economy"
+    },
+    {
+      "id": 4,
+      "title": "Sport News 2",
+      "description": "This is sport news 2",
+      "category": "sports"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Holiday event 1",
+      "description": "This is holiday event 1",
+      "category": "holiday"
+    },
+    {
+      "id": 2,
+      "title": "Holiday event 2",
+      "description": "This is holiday event 2",
+      "category": "holiday"
+    },
+    {
+      "id": 3,
+      "title": "Holiday event 3",
+      "description": "This is holiday event 3",
+      "category": "holiday"
+    },
+    {
+      "id": 4,
+      "title": "Charity event 1",
+      "description": "This is charity event 1",
+      "category": "charity"
+    },
+    {
+      "id": 5,
+      "title": "Charity event 2",
+      "description": "This is charity event 2",
+      "category": "charity"
+    },
+    {
+      "id": 6,
+      "title": "Networking event 1",
+      "description": "This is networking event 1",
+      "category": "networking"
+    },
+    {
+      "id": 7,
+      "title": "Networking event 2",
+      "description": "This is networking event 2",
+      "category": "networking"
+    },
+    {
+      "id": 8,
+      "title": "Networking event 3",
+      "description": "This is networking event 3",
+      "category": "networking"
+    },
+    {
+      "id": 9,
+      "title": "Networking event 4",
+      "description": "This is networking event 4",
+      "category": "networking"
+    }
+  ]
+}
