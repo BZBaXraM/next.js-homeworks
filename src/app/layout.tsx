@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,57 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh",
+          }}
+        >
+          <header
+            style={{
+              backgroundColor: "#111",
+              color: "#fff",
+              padding: "1rem",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <h1>App Router App</h1>
+            <nav>
+              <ul
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  listStyle: "none",
+                  minWidth: 600,
+                }}
+              >
+                <li>
+                  <Link href={"/"}>Main</Link>
+                </li>
+                <li></li>
+                <li>
+                  <Link href={"/filtered-events"}>Events</Link>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          {children}
+          <footer
+            style={{
+              backgroundColor: "#111",
+              color: "#fff",
+              padding: "1rem",
+              marginTop: "auto",
+            }}
+          >
+            All rights reserved
+          </footer>
+        </div>
+      </body>
     </html>
   );
 }
